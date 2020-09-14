@@ -1,0 +1,695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96B4A1152508C09700FB852B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B4A1142508C09700FB852B /* AppDelegate.swift */; };
+		96B4A1192508C09700FB852B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B4A1182508C09700FB852B /* ViewController.swift */; };
+		96B4A11C2508C09700FB852B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96B4A11A2508C09700FB852B /* Main.storyboard */; };
+		96B4A11E2508C09900FB852B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96B4A11D2508C09900FB852B /* Assets.xcassets */; };
+		96B4A1212508C09900FB852B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96B4A11F2508C09900FB852B /* LaunchScreen.storyboard */; };
+		96B4A12C2508C09A00FB852B /* La_CantinaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B4A12B2508C09A00FB852B /* La_CantinaTests.swift */; };
+		96B4A1372508C09A00FB852B /* La_CantinaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B4A1362508C09A00FB852B /* La_CantinaUITests.swift */; };
+		96B4A1492508C1D500FB852B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B4A1472508C1D500FB852B /* HomeViewController.swift */; };
+		96B4A14A2508C1D500FB852B /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96B4A1482508C1D500FB852B /* HomeViewController.xib */; };
+		96B4A14D2508C37600FB852B /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B4A14B2508C37600FB852B /* SignInViewController.swift */; };
+		96B4A14E2508C37600FB852B /* SignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96B4A14C2508C37600FB852B /* SignInViewController.xib */; };
+		96B4A1502508C9F400FB852B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B4A14F2508C9F400FB852B /* SceneDelegate.swift */; };
+		96B4A1742508CF6600FB852B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B4A1722508CF6600FB852B /* MainViewController.swift */; };
+		96B4A1752508CF6600FB852B /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96B4A1732508CF6600FB852B /* MainViewController.xib */; };
+		96B4A1772508D2BD00FB852B /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B4A1762508D2BD00FB852B /* Toast.swift */; };
+		96B4A17A250E4BA600FB852B /* ReservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B4A178250E4BA600FB852B /* ReservationViewController.swift */; };
+		96B4A17B250E4BA600FB852B /* ReservationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96B4A179250E4BA600FB852B /* ReservationViewController.xib */; };
+		96B4A17E250E510200FB852B /* HorraireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B4A17C250E510200FB852B /* HorraireViewController.swift */; };
+		96B4A17F250E510200FB852B /* HorraireViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96B4A17D250E510200FB852B /* HorraireViewController.xib */; };
+		96B4A182250E53A400FB852B /* AccompagnateurViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B4A180250E53A400FB852B /* AccompagnateurViewController.swift */; };
+		96B4A183250E53A400FB852B /* AccompagnateurViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96B4A181250E53A400FB852B /* AccompagnateurViewController.xib */; };
+		96B4A186250E577F00FB852B /* ChoosePlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B4A184250E577F00FB852B /* ChoosePlaceViewController.swift */; };
+		96B4A187250E577F00FB852B /* ChoosePlaceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96B4A185250E577F00FB852B /* ChoosePlaceViewController.xib */; };
+		96B4A18A250E58F900FB852B /* RecapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B4A188250E58F900FB852B /* RecapViewController.swift */; };
+		96B4A18B250E58F900FB852B /* RecapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96B4A189250E58F900FB852B /* RecapViewController.xib */; };
+		96B4A18E250F921200FB852B /* HistoriqueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B4A18C250F921100FB852B /* HistoriqueViewController.swift */; };
+		96B4A18F250F921200FB852B /* HistoriqueViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96B4A18D250F921100FB852B /* HistoriqueViewController.xib */; };
+		96B4A192250F996700FB852B /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B4A190250F996700FB852B /* AccountViewController.swift */; };
+		96B4A193250F996700FB852B /* AccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96B4A191250F996700FB852B /* AccountViewController.xib */; };
+		96B4A196250F9C9F00FB852B /* ModifyPWDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B4A194250F9C9F00FB852B /* ModifyPWDViewController.swift */; };
+		96B4A197250F9C9F00FB852B /* ModifyPWDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96B4A195250F9C9F00FB852B /* ModifyPWDViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96B4A1282508C09A00FB852B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96B4A1092508C09700FB852B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96B4A1102508C09700FB852B;
+			remoteInfo = "La Cantina";
+		};
+		96B4A1332508C09A00FB852B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96B4A1092508C09700FB852B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96B4A1102508C09700FB852B;
+			remoteInfo = "La Cantina";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96B4A1112508C09700FB852B /* La Cantina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "La Cantina.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96B4A1142508C09700FB852B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96B4A1182508C09700FB852B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96B4A11B2508C09700FB852B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96B4A11D2508C09900FB852B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96B4A1202508C09900FB852B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96B4A1222508C09900FB852B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96B4A1272508C09A00FB852B /* La CantinaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "La CantinaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96B4A12B2508C09A00FB852B /* La_CantinaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = La_CantinaTests.swift; sourceTree = "<group>"; };
+		96B4A12D2508C09A00FB852B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96B4A1322508C09A00FB852B /* La CantinaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "La CantinaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96B4A1362508C09A00FB852B /* La_CantinaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = La_CantinaUITests.swift; sourceTree = "<group>"; };
+		96B4A1382508C09A00FB852B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96B4A1472508C1D500FB852B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		96B4A1482508C1D500FB852B /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		96B4A14B2508C37600FB852B /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		96B4A14C2508C37600FB852B /* SignInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignInViewController.xib; sourceTree = "<group>"; };
+		96B4A14F2508C9F400FB852B /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		96B4A1722508CF6600FB852B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		96B4A1732508CF6600FB852B /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		96B4A1762508D2BD00FB852B /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		96B4A178250E4BA600FB852B /* ReservationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationViewController.swift; sourceTree = "<group>"; };
+		96B4A179250E4BA600FB852B /* ReservationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReservationViewController.xib; sourceTree = "<group>"; };
+		96B4A17C250E510200FB852B /* HorraireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorraireViewController.swift; sourceTree = "<group>"; };
+		96B4A17D250E510200FB852B /* HorraireViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HorraireViewController.xib; sourceTree = "<group>"; };
+		96B4A180250E53A400FB852B /* AccompagnateurViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccompagnateurViewController.swift; sourceTree = "<group>"; };
+		96B4A181250E53A400FB852B /* AccompagnateurViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccompagnateurViewController.xib; sourceTree = "<group>"; };
+		96B4A184250E577F00FB852B /* ChoosePlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosePlaceViewController.swift; sourceTree = "<group>"; };
+		96B4A185250E577F00FB852B /* ChoosePlaceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChoosePlaceViewController.xib; sourceTree = "<group>"; };
+		96B4A188250E58F900FB852B /* RecapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecapViewController.swift; sourceTree = "<group>"; };
+		96B4A189250E58F900FB852B /* RecapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecapViewController.xib; sourceTree = "<group>"; };
+		96B4A18C250F921100FB852B /* HistoriqueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoriqueViewController.swift; sourceTree = "<group>"; };
+		96B4A18D250F921100FB852B /* HistoriqueViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoriqueViewController.xib; sourceTree = "<group>"; };
+		96B4A190250F996700FB852B /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		96B4A191250F996700FB852B /* AccountViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountViewController.xib; sourceTree = "<group>"; };
+		96B4A194250F9C9F00FB852B /* ModifyPWDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyPWDViewController.swift; sourceTree = "<group>"; };
+		96B4A195250F9C9F00FB852B /* ModifyPWDViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ModifyPWDViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96B4A10E2508C09700FB852B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96B4A1242508C09A00FB852B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96B4A12F2508C09A00FB852B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96B4A1082508C09700FB852B = {
+			isa = PBXGroup;
+			children = (
+				96B4A1132508C09700FB852B /* La Cantina */,
+				96B4A12A2508C09A00FB852B /* La CantinaTests */,
+				96B4A1352508C09A00FB852B /* La CantinaUITests */,
+				96B4A1122508C09700FB852B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96B4A1122508C09700FB852B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96B4A1112508C09700FB852B /* La Cantina.app */,
+				96B4A1272508C09A00FB852B /* La CantinaTests.xctest */,
+				96B4A1322508C09A00FB852B /* La CantinaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96B4A1132508C09700FB852B /* La Cantina */ = {
+			isa = PBXGroup;
+			children = (
+				96B4A1442508C12900FB852B /* Scene */,
+				96B4A1142508C09700FB852B /* AppDelegate.swift */,
+				96B4A14F2508C9F400FB852B /* SceneDelegate.swift */,
+				96B4A1762508D2BD00FB852B /* Toast.swift */,
+				96B4A1182508C09700FB852B /* ViewController.swift */,
+				96B4A11A2508C09700FB852B /* Main.storyboard */,
+				96B4A11D2508C09900FB852B /* Assets.xcassets */,
+				96B4A11F2508C09900FB852B /* LaunchScreen.storyboard */,
+				96B4A1222508C09900FB852B /* Info.plist */,
+			);
+			path = "La Cantina";
+			sourceTree = "<group>";
+		};
+		96B4A12A2508C09A00FB852B /* La CantinaTests */ = {
+			isa = PBXGroup;
+			children = (
+				96B4A12B2508C09A00FB852B /* La_CantinaTests.swift */,
+				96B4A12D2508C09A00FB852B /* Info.plist */,
+			);
+			path = "La CantinaTests";
+			sourceTree = "<group>";
+		};
+		96B4A1352508C09A00FB852B /* La CantinaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				96B4A1362508C09A00FB852B /* La_CantinaUITests.swift */,
+				96B4A1382508C09A00FB852B /* Info.plist */,
+			);
+			path = "La CantinaUITests";
+			sourceTree = "<group>";
+		};
+		96B4A1442508C12900FB852B /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				96B4A1472508C1D500FB852B /* HomeViewController.swift */,
+				96B4A1482508C1D500FB852B /* HomeViewController.xib */,
+				96B4A14B2508C37600FB852B /* SignInViewController.swift */,
+				96B4A14C2508C37600FB852B /* SignInViewController.xib */,
+				96B4A1722508CF6600FB852B /* MainViewController.swift */,
+				96B4A1732508CF6600FB852B /* MainViewController.xib */,
+				96B4A178250E4BA600FB852B /* ReservationViewController.swift */,
+				96B4A179250E4BA600FB852B /* ReservationViewController.xib */,
+				96B4A17C250E510200FB852B /* HorraireViewController.swift */,
+				96B4A17D250E510200FB852B /* HorraireViewController.xib */,
+				96B4A180250E53A400FB852B /* AccompagnateurViewController.swift */,
+				96B4A181250E53A400FB852B /* AccompagnateurViewController.xib */,
+				96B4A184250E577F00FB852B /* ChoosePlaceViewController.swift */,
+				96B4A185250E577F00FB852B /* ChoosePlaceViewController.xib */,
+				96B4A188250E58F900FB852B /* RecapViewController.swift */,
+				96B4A189250E58F900FB852B /* RecapViewController.xib */,
+				96B4A18C250F921100FB852B /* HistoriqueViewController.swift */,
+				96B4A18D250F921100FB852B /* HistoriqueViewController.xib */,
+				96B4A190250F996700FB852B /* AccountViewController.swift */,
+				96B4A191250F996700FB852B /* AccountViewController.xib */,
+				96B4A194250F9C9F00FB852B /* ModifyPWDViewController.swift */,
+				96B4A195250F9C9F00FB852B /* ModifyPWDViewController.xib */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96B4A1102508C09700FB852B /* La Cantina */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96B4A13B2508C09A00FB852B /* Build configuration list for PBXNativeTarget "La Cantina" */;
+			buildPhases = (
+				96B4A10D2508C09700FB852B /* Sources */,
+				96B4A10E2508C09700FB852B /* Frameworks */,
+				96B4A10F2508C09700FB852B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "La Cantina";
+			productName = "La Cantina";
+			productReference = 96B4A1112508C09700FB852B /* La Cantina.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96B4A1262508C09A00FB852B /* La CantinaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96B4A13E2508C09A00FB852B /* Build configuration list for PBXNativeTarget "La CantinaTests" */;
+			buildPhases = (
+				96B4A1232508C09A00FB852B /* Sources */,
+				96B4A1242508C09A00FB852B /* Frameworks */,
+				96B4A1252508C09A00FB852B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96B4A1292508C09A00FB852B /* PBXTargetDependency */,
+			);
+			name = "La CantinaTests";
+			productName = "La CantinaTests";
+			productReference = 96B4A1272508C09A00FB852B /* La CantinaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		96B4A1312508C09A00FB852B /* La CantinaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96B4A1412508C09A00FB852B /* Build configuration list for PBXNativeTarget "La CantinaUITests" */;
+			buildPhases = (
+				96B4A12E2508C09A00FB852B /* Sources */,
+				96B4A12F2508C09A00FB852B /* Frameworks */,
+				96B4A1302508C09A00FB852B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96B4A1342508C09A00FB852B /* PBXTargetDependency */,
+			);
+			name = "La CantinaUITests";
+			productName = "La CantinaUITests";
+			productReference = 96B4A1322508C09A00FB852B /* La CantinaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96B4A1092508C09700FB852B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Arthur BLANC";
+				TargetAttributes = {
+					96B4A1102508C09700FB852B = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					96B4A1262508C09A00FB852B = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 96B4A1102508C09700FB852B;
+					};
+					96B4A1312508C09A00FB852B = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 96B4A1102508C09700FB852B;
+					};
+				};
+			};
+			buildConfigurationList = 96B4A10C2508C09700FB852B /* Build configuration list for PBXProject "La Cantina" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96B4A1082508C09700FB852B;
+			productRefGroup = 96B4A1122508C09700FB852B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96B4A1102508C09700FB852B /* La Cantina */,
+				96B4A1262508C09A00FB852B /* La CantinaTests */,
+				96B4A1312508C09A00FB852B /* La CantinaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96B4A10F2508C09700FB852B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B4A197250F9C9F00FB852B /* ModifyPWDViewController.xib in Resources */,
+				96B4A14E2508C37600FB852B /* SignInViewController.xib in Resources */,
+				96B4A17B250E4BA600FB852B /* ReservationViewController.xib in Resources */,
+				96B4A18B250E58F900FB852B /* RecapViewController.xib in Resources */,
+				96B4A1752508CF6600FB852B /* MainViewController.xib in Resources */,
+				96B4A1212508C09900FB852B /* LaunchScreen.storyboard in Resources */,
+				96B4A11E2508C09900FB852B /* Assets.xcassets in Resources */,
+				96B4A11C2508C09700FB852B /* Main.storyboard in Resources */,
+				96B4A17F250E510200FB852B /* HorraireViewController.xib in Resources */,
+				96B4A187250E577F00FB852B /* ChoosePlaceViewController.xib in Resources */,
+				96B4A193250F996700FB852B /* AccountViewController.xib in Resources */,
+				96B4A18F250F921200FB852B /* HistoriqueViewController.xib in Resources */,
+				96B4A183250E53A400FB852B /* AccompagnateurViewController.xib in Resources */,
+				96B4A14A2508C1D500FB852B /* HomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96B4A1252508C09A00FB852B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96B4A1302508C09A00FB852B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96B4A10D2508C09700FB852B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B4A1502508C9F400FB852B /* SceneDelegate.swift in Sources */,
+				96B4A1192508C09700FB852B /* ViewController.swift in Sources */,
+				96B4A192250F996700FB852B /* AccountViewController.swift in Sources */,
+				96B4A1152508C09700FB852B /* AppDelegate.swift in Sources */,
+				96B4A17A250E4BA600FB852B /* ReservationViewController.swift in Sources */,
+				96B4A1742508CF6600FB852B /* MainViewController.swift in Sources */,
+				96B4A14D2508C37600FB852B /* SignInViewController.swift in Sources */,
+				96B4A18E250F921200FB852B /* HistoriqueViewController.swift in Sources */,
+				96B4A196250F9C9F00FB852B /* ModifyPWDViewController.swift in Sources */,
+				96B4A18A250E58F900FB852B /* RecapViewController.swift in Sources */,
+				96B4A186250E577F00FB852B /* ChoosePlaceViewController.swift in Sources */,
+				96B4A182250E53A400FB852B /* AccompagnateurViewController.swift in Sources */,
+				96B4A1492508C1D500FB852B /* HomeViewController.swift in Sources */,
+				96B4A1772508D2BD00FB852B /* Toast.swift in Sources */,
+				96B4A17E250E510200FB852B /* HorraireViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96B4A1232508C09A00FB852B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B4A12C2508C09A00FB852B /* La_CantinaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96B4A12E2508C09A00FB852B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B4A1372508C09A00FB852B /* La_CantinaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96B4A1292508C09A00FB852B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96B4A1102508C09700FB852B /* La Cantina */;
+			targetProxy = 96B4A1282508C09A00FB852B /* PBXContainerItemProxy */;
+		};
+		96B4A1342508C09A00FB852B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96B4A1102508C09700FB852B /* La Cantina */;
+			targetProxy = 96B4A1332508C09A00FB852B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96B4A11A2508C09700FB852B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96B4A11B2508C09700FB852B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96B4A11F2508C09900FB852B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96B4A1202508C09900FB852B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96B4A1392508C09A00FB852B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96B4A13A2508C09A00FB852B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96B4A13C2508C09A00FB852B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F66C8G9FWJ;
+				INFOPLIST_FILE = "La Cantina/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "arthur.La-Cantina";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96B4A13D2508C09A00FB852B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F66C8G9FWJ;
+				INFOPLIST_FILE = "La Cantina/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "arthur.La-Cantina";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		96B4A13F2508C09A00FB852B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F66C8G9FWJ;
+				INFOPLIST_FILE = "La CantinaTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "arthur.La-CantinaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/La Cantina.app/La Cantina";
+			};
+			name = Debug;
+		};
+		96B4A1402508C09A00FB852B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F66C8G9FWJ;
+				INFOPLIST_FILE = "La CantinaTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "arthur.La-CantinaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/La Cantina.app/La Cantina";
+			};
+			name = Release;
+		};
+		96B4A1422508C09A00FB852B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F66C8G9FWJ;
+				INFOPLIST_FILE = "La CantinaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "arthur.La-CantinaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "La Cantina";
+			};
+			name = Debug;
+		};
+		96B4A1432508C09A00FB852B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F66C8G9FWJ;
+				INFOPLIST_FILE = "La CantinaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "arthur.La-CantinaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "La Cantina";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96B4A10C2508C09700FB852B /* Build configuration list for PBXProject "La Cantina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96B4A1392508C09A00FB852B /* Debug */,
+				96B4A13A2508C09A00FB852B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96B4A13B2508C09A00FB852B /* Build configuration list for PBXNativeTarget "La Cantina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96B4A13C2508C09A00FB852B /* Debug */,
+				96B4A13D2508C09A00FB852B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96B4A13E2508C09A00FB852B /* Build configuration list for PBXNativeTarget "La CantinaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96B4A13F2508C09A00FB852B /* Debug */,
+				96B4A1402508C09A00FB852B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96B4A1412508C09A00FB852B /* Build configuration list for PBXNativeTarget "La CantinaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96B4A1422508C09A00FB852B /* Debug */,
+				96B4A1432508C09A00FB852B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96B4A1092508C09700FB852B /* Project object */;
+}
